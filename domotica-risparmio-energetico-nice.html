@@ -25,7 +25,7 @@
 <meta property="og:url" content="https://www.niceforyou.com/it/magazine/domotica-risparmio-energetico">
 <meta property="og:title" content="Domotica e risparmio energetico: quanto si risparmia automatizzando la casa | Nice">
 <meta property="og:description" content="Scopri quanto si risparmia davvero con la domotica: dai dati ENEA agli incentivi Ecobonus 2026, con simulazioni reali e i prodotti Nice per iniziare.">
-<meta property="og:image" content="[PLACEHOLDER_OG_IMAGE]">
+<meta property="og:image" content="https://www.niceforyou.com/sites/default/files/styles/1200x630_crop/public/2023-12/clip-sun-shading.jpg?itok=yNFp2fML">
 <meta property="og:locale" content="it_IT">
 <meta property="article:published_time" content="2026-05-05">
 <meta property="article:modified_time" content="2026-05-05">
@@ -47,7 +47,7 @@
   "@type": "Article",
   "headline": "Domotica e risparmio energetico: quanto si risparmia automatizzando la casa",
   "description": "Scopri quanto si risparmia davvero con la domotica: dai dati ENEA agli incentivi Ecobonus 2026, con simulazioni reali e i prodotti Nice per iniziare.",
-  "image": "[PLACEHOLDER_SCHEMA_IMAGE]",
+  "image": "https://www.niceforyou.com/sites/default/files/styles/1200x630_crop/public/2023-12/clip-sun-shading.jpg?itok=yNFp2fML",
   "author": { "@type": "Organization", "name": "Nice", "url": "https://www.niceforyou.com" },
   "publisher": {
     "@type": "Organization",
@@ -108,35 +108,8 @@
 <link rel="stylesheet" media="all" href="./Primavera smart_ il momento giusto per scegliere tende e tapparelle automatizzate. Scopri l’Ecobonus 2026. _ Nice_files/app.css">
 <link rel="stylesheet" media="all" href="./Primavera smart_ il momento giusto per scegliere tende e tapparelle automatizzate. Scopri l’Ecobonus 2026. _ Nice_files/magazine-single-page.css">
 
-<!-- ===== Solo placeholder immagini (richiesti dall'utente) ===== -->
+<!-- ===== Stili custom articolo ===== -->
 <style>
-  .nice-img-placeholder {
-    background: #F4F5F6;
-    border: 2px dashed #E0E3E7;
-    border-radius: 4px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    color: #6B7480;
-    font-weight: 600;
-    font-size: 13px;
-    text-align: center;
-    padding: 28px;
-    width: 100%;
-  }
-  .nice-img-placeholder.is-hero    { min-height: 380px; }
-  .nice-img-placeholder.is-medium  { min-height: 280px; }
-  .nice-img-placeholder.is-small   { min-height: 220px; }
-  .nice-img-placeholder svg { opacity: 0.45; }
-  .nice-img-placeholder__hint {
-    font-size: 11px;
-    font-weight: 400;
-    color: #9aa1ab;
-    max-width: 480px;
-  }
-
   /* Callout boxes (DATO CHIAVE, PRODOTTO IN EVIDENZA) */
   .nice-callout {
     border-left: 4px solid #004A93;
@@ -203,6 +176,14 @@
     color: #6B7480;
     margin-top: 8px;
     line-height: 1.5;
+  }
+
+  /* Article images (replace placeholder visuals) */
+  .nice-article-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
   }
 
   /* Source / internal links footer */
@@ -291,11 +272,9 @@
 
         <!-- IMMAGINE HERO -->
         <div class="media-image-press container-small start-animation" data-animm="bottom-to-top">
-          <div class="nice-img-placeholder is-hero" role="img" aria-label="Immagine principale articolo">
-            <svg width="56" height="56" viewBox="0 0 40 40" fill="none"><rect x="3" y="7" width="34" height="26" rx="3" stroke="#aaa" stroke-width="1.5"/><circle cx="13" cy="16" r="4" stroke="#aaa" stroke-width="1.5"/><path d="M3 28l9-7 7 5 6-5 12 7" stroke="#aaa" stroke-width="1.5" stroke-linejoin="round"/></svg>
-            <strong>[ IMMAGINE HERO ]</strong>
-            <span class="nice-img-placeholder__hint">Consigliata: casa moderna con tapparelle motorizzate e app sul telefono · 1200×630 px</span>
-          </div>
+          <picture>
+            <img class="nice-article-img" src="https://www.niceforyou.com/sites/default/files/styles/1200x630_crop/public/2023-12/clip-sun-shading.jpg?itok=yNFp2fML" alt="Casa con tende e tapparelle automatizzate Nice" width="1200" height="630" loading="eager" decoding="async">
+          </picture>
         </div>
 
         <!-- TESTO 1 -->
@@ -322,11 +301,9 @@
 
         <!-- IMMAGINE 2 -->
         <div class="media-image-press container-small start-animation" data-animm="bottom-to-top">
-          <div class="nice-img-placeholder is-medium" role="img" aria-label="Tapparelle motorizzate Nice">
-            <svg width="44" height="44" viewBox="0 0 36 36" fill="none"><rect x="3" y="3" width="30" height="3" rx="1.5" stroke="#aaa" stroke-width="1.5"/><rect x="7" y="9" width="22" height="18" rx="1" stroke="#aaa" stroke-width="1.5"/><path d="M11 9v18M18 9v18M25 9v18" stroke="#aaa" stroke-width="1.2"/></svg>
-            <strong>[ IMMAGINE PRODOTTO ]</strong>
-            <span class="nice-img-placeholder__hint">Tapparelle motorizzate Nice con sensore di soleggiamento · 800×500 px</span>
-          </div>
+          <picture>
+            <img class="nice-article-img" src="https://www.niceforyou.com/sites/default/files/styles/800x800_crop/public/2024-09/tapparelle.jpg?itok=NYswGNZ-" alt="Tapparelle motorizzate Nice" width="800" height="800" loading="lazy" decoding="async">
+          </picture>
         </div>
 
         <!-- TESTO 2 -->
@@ -411,11 +388,9 @@
 
         <!-- IMMAGINE 3 -->
         <div class="media-image-press container-small start-animation" data-animm="bottom-to-top">
-          <div class="nice-img-placeholder is-small" role="img" aria-label="Grafico risparmio energetico domotica">
-            <svg width="44" height="44" viewBox="0 0 32 32" fill="none"><rect x="4" y="4" width="24" height="24" rx="2" stroke="#aaa" stroke-width="1.5"/><path d="M8 22l5-6 4 3 6-9" stroke="#004A93" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <strong>[ GRAFICO ]</strong>
-            <span class="nice-img-placeholder__hint">Infografica: risparmio cumulativo anno 1-10 con e senza Ecobonus · 800×400 px</span>
-          </div>
+          <picture>
+            <img class="nice-article-img" src="https://www.niceforyou.com/sites/default/files/styles/800x600_crop/public/2024-08/n_ppl1100oa_smarthome_.jpg?itok=4cWesOfb" alt="Ecosistema Nice Smart Home" width="800" height="600" loading="lazy" decoding="async">
+          </picture>
         </div>
 
         <!-- TESTO 3 -->
@@ -473,11 +448,9 @@
 
         <!-- IMMAGINE 4 -->
         <div class="media-image-press container-small start-animation" data-animm="bottom-to-top">
-          <div class="nice-img-placeholder is-medium" role="img" aria-label="Nice Smart Home">
-            <svg width="44" height="44" viewBox="0 0 32 32" fill="none"><path d="M4 14L16 4l12 10v14H4V14z" stroke="#aaa" stroke-width="1.5" stroke-linejoin="round"/><rect x="13" y="18" width="6" height="10" stroke="#aaa" stroke-width="1.5"/></svg>
-            <strong>[ IMMAGINE LIFESTYLE ]</strong>
-            <span class="nice-img-placeholder__hint">Lifestyle smart home Nice · 800×500 px</span>
-          </div>
+          <picture>
+            <img class="nice-article-img" src="https://www.niceforyou.com/sites/default/files/styles/1480x1110_crop/public/2024-09/n_app0804oc_home.jpg?itok=RNVuqtcj" alt="Lifestyle smart home Nice: tende da interno automatizzate" width="1480" height="1110" loading="lazy" decoding="async">
+          </picture>
         </div>
 
         <!-- ============== GUARDA ANCHE ============== -->
